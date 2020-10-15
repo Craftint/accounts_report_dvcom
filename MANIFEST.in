@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include accounts_report_dvcom *.css
+recursive-include accounts_report_dvcom *.csv
+recursive-include accounts_report_dvcom *.html
+recursive-include accounts_report_dvcom *.ico
+recursive-include accounts_report_dvcom *.js
+recursive-include accounts_report_dvcom *.json
+recursive-include accounts_report_dvcom *.md
+recursive-include accounts_report_dvcom *.png
+recursive-include accounts_report_dvcom *.py
+recursive-include accounts_report_dvcom *.svg
+recursive-include accounts_report_dvcom *.txt
+recursive-exclude accounts_report_dvcom *.pyc
